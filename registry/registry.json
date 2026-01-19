@@ -1,0 +1,7 @@
+{
+  "production": {
+    "version": "v0",
+    "path": "models/bert_sentiment",
+    "metrics": {}
+  }
+}

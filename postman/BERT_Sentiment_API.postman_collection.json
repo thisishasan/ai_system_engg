@@ -1,0 +1,44 @@
+{
+  "info": {
+    "name": "BERT Sentiment API (Local Docker)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:5000/health"
+      }
+    },
+    {
+      "name": "Predict",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"text\": \"I love the new update, it feels faster!\",\n  \"entity\": \"Apple\"\n}"
+        },
+        "url": "http://localhost:5000/predict"
+      }
+    },
+    {
+      "name": "Metrics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:5000/metrics"
+      }
+    },
+    {
+      "name": "Drift",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://localhost:5000/monitor/drift"
+      }
+    }
+  ]
+}

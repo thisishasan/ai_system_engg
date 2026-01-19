@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.conda/
+
+# Git
+.git/
+.gitignore
+
+# Local runtime/logs
+runtime/
+*.db
+
+# Data (keep models/!)
+data/
+
+# Notebooks / misc
+*.ipynb
+.DS_Store

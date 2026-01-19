@@ -1,0 +1,83 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ================================
+# Virtual Environments
+# ================================
+.venv/
+venv/
+env/
+
+# ================================
+# Jupyter / IPython
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Data files (external artifacts)
+# ================================
+data/
+*.csv
+
+# ================================
+# Trained models & artifacts
+# (do NOT version large binaries)
+# ================================
+models/
+results/
+monitoring/
+tmp_trainer/
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# OS-specific files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# IDE / Editor files
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Docker
+# ================================
+*.tar
+docker-compose.override.yml
+
+# ================================
+# Environment variables / secrets
+# ================================
+.env
+.env.*
+
+# ================================
+# Reports & exports (optional)
+# Uncomment if you don't want to version reports
+# ================================
+# *.pdf
+# *.docx
+
+# ================================
+# Kaggle credentials (never commit)
+# ================================
+.kaggle/
+kaggle.json
+
