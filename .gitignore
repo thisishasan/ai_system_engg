@@ -31,10 +31,11 @@ data/
 # Trained models & artifacts
 # (do NOT version large binaries)
 # ================================
-models/
+models/bert_sentiment/*
 results/
 monitoring/
 tmp_trainer/
+source/
 
 # ================================
 # Logs
